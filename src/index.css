@@ -1,0 +1,41 @@
+@font-face {
+  font-family: BeaufortRegular;
+  src: url('./fonts/Beaufort-Regular.otf');
+}
+@font-face {
+  font-family: BeaufortBold;
+  src: url('./fonts/Beaufort-Bold.otf');
+}
+@font-face {
+  font-family: BeaufortLight;
+  src: url('./fonts/Beaufort-Light.otf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: #0f2220;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+
+body {
+  background-image: url("./assets/game-background.jpg");
+  background-size: 128%;
+}
+
+.header--title{
+  font-family: BeaufortRegular;
+  color: #b7ae6e;
+}
+
+.header--subtitle {
+  font-family: BeaufortLight;
+  color: #b7ae6e;
+}
