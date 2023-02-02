@@ -45,7 +45,7 @@ export default function Game() {
         return (
             <div className="champion--card" key={index}>
                 <div className="button--wrap">
-                    <button type="button"  onClick={handleClick} id={champion.name} style={{backgroundImage: "url(" + champion.image + ")"}} alt="Image of league of legends champion" className="champion--image"/>
+                    <button type="button"  onClick={handleClick} id={champion.name} style={{backgroundImage: "url(./" + champion.image + ")"}} alt="Image of league of legends champion" className="champion--image"/>
                 </div>
                 <h2 className="champion--name">{champion.name}</h2>
             </div>
