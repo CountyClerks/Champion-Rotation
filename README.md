@@ -4,3 +4,5 @@ This project was created for personal practice of React useState and useEffect. 
 
 
 All images and assets used are owned by and belong to Riot Games and League of Legends, and were taken from the Riot Games developer portal under https://developer.riotgames.com/docs/lol#data-dragon
+
+Live page: https://countyclerks.github.io/Champion-Rotation/
