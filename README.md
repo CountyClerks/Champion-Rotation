@@ -1,4 +1,4 @@
-#Users will click through the visible cards without repeating. Whenever a repeated character is clicked, the score will reset and the character cards will also reset.
+Users will click through the visible cards without repeating. Whenever a repeated character is clicked, the score will reset and the character cards will also reset.
 
 This project was created for personal practice of React useState and useEffect. Through this project I learned how to handle effects as to prevent infinite render loops whenever React renders a component.
 
